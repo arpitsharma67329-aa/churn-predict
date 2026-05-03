@@ -363,3 +363,8 @@ with tab4:
                 st.error(f"⚠️ **High churn risk** — this customer is likely to churn ({avg_prob*100:.1f}% probability).")
             else:
                 st.success(f"✅ **Low churn risk** — this customer is likely to stay ({(1-avg_prob)*100:.1f}% retention probability).")
+                import streamlit as st
+
+st.title("Churn Prediction App 🚀")
+st.write("Deployment Successful on Railway!")
+
